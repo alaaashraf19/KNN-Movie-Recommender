@@ -1,22 +1,15 @@
-# 🎬 KNN-Movie-Recommender
+# KNN-Movie-Recommender
 
 This project implements a simple movie recommendation system using the K-Nearest Neighbors (KNN) algorithm and the MovieLens 100K dataset. It recommends movies to users based on the preferences of similar users.
 
-## 📚 Table of Contents
 
-- [Dataset](#dataset)
-- [Features](#features)
-- [Installation](#installation)
-- [Evaluation](#evaluation)
-- [Report](#report)
-
-## 🎞️ Dataset
+## Dataset
 
 This project uses the [MovieLens 100K Dataset](https://www.kaggle.com/datasets) which contains 100,000 ratings from 943 users on 1,682 movies.
 
 > ⚠️ Due to licensing, the dataset is **not included** in this repository. Please download it from [Kaggle](https://www.kaggle.com/datasets) and place it in the `data/` directory.
 
-## ✨ Features
+## Features
 
 - Loads and explores the MovieLens dataset using Pandas
 - Builds a User-Item Interaction Matrix
@@ -25,7 +18,7 @@ This project uses the [MovieLens 100K Dataset](https://www.kaggle.com/datasets) 
 - Evaluates recommendations with Precision and Recall
 - Visualizes similarity scores and recommendation performance
 
-- ## ⚙️ Installation
+- ## Installation
 
 1. Clone this repository:
    ```bash
@@ -33,7 +26,7 @@ This project uses the [MovieLens 100K Dataset](https://www.kaggle.com/datasets) 
    cd KNN-Movie-Recommender
 
 
-## 📈 Evaluation
+## Evaluation
 
 The recommendation system was evaluated using:
 
@@ -42,7 +35,7 @@ The recommendation system was evaluated using:
 
 We tested different values of `k` to analyze the trade-offs.
 
-## 📄 Report
+## Report
 
 For a detailed explanation of methodology, design decisions, and results:
 
