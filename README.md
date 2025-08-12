@@ -39,4 +39,4 @@ We tested different values of `k` to analyze the trade-offs.
 
 For a detailed explanation of methodology, design decisions, and results:
 
-👉 [Read the Full Report](./Report.pdf)
+[Read the Full Report](./Report.pdf)
